@@ -2,14 +2,17 @@ package model;
 
 public class Student {
 
-        private String name;
-        private int age;
-        private String sex;
+    private String name;
+    private int age;
+    private String sex;
 
-        public void eat(){
-            System.out.println("吃饭");
-        }
-        public void rest(){ System.out.println("休息"); }
+    public void eat() {
+        System.out.println("吃饭");
+    }
+
+    public void rest() {
+        System.out.println("休息");
+    }
 
     public Student() {
     }
